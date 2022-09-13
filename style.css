@@ -1,0 +1,143 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.logo {
+	width: 40px;
+	height: 40px;
+	margin: 20px 20px 0px;
+}
+
+.list-items img {
+	width: 40px;
+	height: 40px;
+}
+
+.live {
+	width: 50px;
+	height: 50px;
+}
+.login-button img {
+	width: 55px;
+	height: 55px;
+	margin-top: -5px;
+}
+
+.navbar {
+	display: flex;
+	border: 1px solid black;
+	font-family: 'Lora', serif;
+}
+
+.list {
+	display: flex;
+	margin: auto;
+	padding: 0px 30px 0px;
+}
+
+.list-items {
+	margin: 10px 45px 10px;
+}
+
+.list-items a {
+	text-decoration: none;
+	color: black;
+	font-size: 22px;
+	font-family: 'Lora', serif;
+}
+
+.list-items a:hover {
+	color: blue;
+}
+
+.list-items li {
+	list-style: none;
+	padding-right: 10px;
+	font-family: 'Lora', serif;
+}
+
+.login-button {
+	display: flex;
+	margin: 20px 20px 0px;
+}
+
+.login-button a {
+	text-decoration: none;
+	color: black;
+	margin-top: 10px;
+	font-size: 25px;
+	font-family: 'Lora', serif;
+}
+
+.login-button a:hover {
+	color: blue;
+}
+
+.images {
+	width: 95vw;
+	height: 400px;
+	/*border: 2px solid black;*/
+	margin: 20px;
+	display: flex;
+}
+
+.heading {
+	font-size: 2.4rem;
+	margin: 15px;
+	font-family: 'Lora', serif;
+}
+
+.image {
+	width: 35%;
+	height: 400px;
+	border: 1px solid black;
+	border-radius: 9px;
+	cursor: pointer;
+	transition: all 80ms ease-out;
+}
+
+.image h3 {
+	font-size: 28px;
+	color: white;
+	margin: 20px;
+	display: inline-block;
+	font-family: 'Lora', serif;
+}
+
+#pic1 {
+	background-image: url('img1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#pic2 {
+	background-image: url('img2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#pic3 {
+	background-image: url('img3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.arrow {
+	display: none;
+}
+
+.image:hover {
+	width: 55%;
+	height: 400px;
+}
+
+.image:hover .arrow {
+	float: right;
+	margin: 20px;
+	font-size: 3.5rem;
+	color: white;
+	display: block;
+}
+
